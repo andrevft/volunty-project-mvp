@@ -130,13 +130,17 @@ justify-content: flex-end;
 
 
   #myFooter {
-    background-color: #fafafa;
+    background-color: #eeeeee;
     color: rgb(255, 255, 255);
     padding-top: 30px;
 }
 
+#myFooter img {
+    width: 180px;
+}
+
 #myFooter .footer-copyright {
-    background-color: #333333;
+    background-color: #7897c6;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
@@ -153,7 +157,7 @@ justify-content: flex-end;
 
 #myFooter .footer-copyright p {
     margin: 10px;
-    color: #ccc;
+    color: rgb(255, 255, 255);
 }
 
 #myFooter ul {
@@ -164,7 +168,7 @@ justify-content: flex-end;
 
 #myFooter h5 {
     font-size: 18px;
-    color: rgb(158, 158, 158);
+    color: rgb(112, 112, 112);
     font-weight: bold;
     margin-top: 30px;
 }
@@ -208,11 +212,15 @@ justify-content: flex-end;
 }
 
 #myFooter .instagram:hover {
-    color: #ef1a1a;
+    color: #e13c67;
 }
 
 #myFooter .twitter:hover {
     color: #00aced;
+}
+
+#myFooter .linkedin:hover {
+  color: #0077b5;
 }
 
 #myFooter .btn {
@@ -310,5 +318,5 @@ justify-content: flex-end;
 */
 
 .highlight {
-  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #d1d3ff 50%);
+  background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #e0e8ffea 50%);
 }
